@@ -1,4 +1,3 @@
-
 我有 2 个方便 git 提交的脚本 , 如下
 
 * [bin/gci](./bin/gci)
@@ -23,3 +22,7 @@ export VOLC_SECRETKEY=""
 ```
 
 然后 `npm i -g @3-/clitran`
+
+效果如下图
+
+![](https://i-01.eu.org/2023/11/hmcdntf.webp)
