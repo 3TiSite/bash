@@ -1,0 +1,18 @@
+session_name: 3Ti
+windows:
+- layout: fdc8,170x52,0,0{125x52,0,0,1,44x52,126,0,4}
+  options: {}
+  panes:
+  - focus: 'true'
+  - shell_command:
+    - ./dev.sh
+  window_name: srv
+  start_directory: ~/3Ti/srv/rust
+- layout: fdd1,170x52,0,0{125x52,0,0,5,44x52,126,0,6}
+  options: {}
+  panes:
+  - focus: 'true'
+  - shell_command:
+    - ./dev.sh
+  start_directory: ~/3Ti/site
+  window_name: site
